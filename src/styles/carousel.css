@@ -84,13 +84,17 @@ html, body {
     background: rgba(0, 0, 0, 0.7);
     color: white;
     bottom: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .slide .slide__hdl {
     margin-top:0;
+    font-weight: 500;
 }
 
-.slide .slide__text {}
+.slide .slide__text {
+    font-weight: 300;
+}
 
 .slide .slide__link {}
 
