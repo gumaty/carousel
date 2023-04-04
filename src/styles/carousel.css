@@ -1,6 +1,21 @@
 html, body {
     font-size: 16px;
 }
+
+@font-face {
+    font-family: 'Roboto Slab Light';
+    src: url('../fonts/robotoslab-light-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Slab Regular';
+    src: url('../fonts/robotoslab-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
     --carousel-height: 18.75rem;
 }
@@ -84,16 +99,18 @@ html, body {
     background: rgba(0, 0, 0, 0.7);
     color: white;
     bottom: 0;
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
 }
 
 .slide .slide__hdl {
     margin-top:0;
-    font-weight: 500;
+    font-family: 'Roboto Slab Regular', sans-serif;
+    /*font-weight: 500;*/
 }
 
 .slide .slide__text {
-    font-weight: 300;
+    font-family: 'Roboto Slab Light', sans-serif;
+    /*font-weight: 300;*/
 }
 
 .slide .slide__link {}
